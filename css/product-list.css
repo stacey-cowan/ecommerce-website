@@ -4,14 +4,15 @@
 }
 
 .product {
-    background-color:#D1CCC7;
+    background-color:#F0F0F0 ;
+    border: 2px double #600;
     border-radius: 4px;
     padding: 1em;
 }
 
 .promo-small {
-    background-color:#D1CCC7;
-    border-radius: 2px;
+    background-color:#F0F0F0 ;
+    border: 7px double #600;
+    border-radius: 8px;
     padding: 1em;
 }
-    
