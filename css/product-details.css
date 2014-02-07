@@ -1,0 +1,23 @@
+.details {
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+.details-border-b {
+    border-bottom: 1px solid #600;
+    margin-bottom: 10px;
+}
+
+.details-border-t {
+    border-top: 1px solid #600;
+    margin-top: 10px;
+}
+
+.details-border-l {
+    border-left: 1px solid #600;
+    margin-left: 10px;
+}
+
+.details-border-r {
+    border-right: 1px solid #600;
+    margin-right: 10px;
+}
