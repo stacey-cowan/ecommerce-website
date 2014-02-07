@@ -12,4 +12,5 @@
 
 .list-group-item-inline {
     display: inline-block;
+    list-style-type:none;
 }
