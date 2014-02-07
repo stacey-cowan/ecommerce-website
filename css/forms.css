@@ -1,22 +1,18 @@
-.searchbox
-{
+.searchbox {
 	background: #600;        
 	width: 300px;
 	height: 50px;
 	position:relative;
-    top:50px;
     padding-right:10%;
     float:right;
 	overflow: hidden; /* Clear floats */
 }
 
-.search, .submit
-{
+.search, .submit {
 	float: left;
 }
 
-.search
-{
+.search {
 	padding: 10px 9px;
 	background: #E8E6E3;
 	border-radius: 5px;
@@ -24,8 +20,7 @@
     width: 70%;
 }
 
-.submit
-{		
+.submit {		
 	background: #996633;
 	background-image: linear-gradient(#996633, #774411);
 	border-radius: 5px;		
@@ -34,8 +29,7 @@
     color: #fff;
 }
 
-.submit:hover
-{		
+.submit:hover {		
     background: #996633;
 	background-image: linear-gradient(#774411, #996633);
 }	
