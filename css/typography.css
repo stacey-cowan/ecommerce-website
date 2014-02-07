@@ -174,3 +174,9 @@ td{
 tr:nth-child(even){
 	background-color: rgba(100, 0, 0, 0.2);
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #600;
+}
