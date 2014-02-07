@@ -11,9 +11,23 @@
     color: #fff;
 }
 
+.btn a:hover,
+.btn a:focus,
+.btn a:active {
+	color: #996633;
+    background-image: linear-gradient(to bottom, #663300, #996633);
+}
+
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited {
     background-color: #600;
     background-image: linear-gradient(to bottom, #600, #300);
+}
+
+.btn-alt a:hover,
+.btn-alt a:focus,
+.btn-alt a:active {
+	color: #600;
+    background-image: linear-gradient(to bottom, #300, #600);
 }
