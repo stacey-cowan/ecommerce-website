@@ -1,4 +1,46 @@
-.header {
+header {
     background-color: #600;
-    border: 3px solid red;
+    width:100%;
+    padding: 0;
+
+    position:fixed;
+    
+}
+
+.nav {
+    display:inline;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: .5rem;
+    float: right;
+}
+.nav ul li:before {
+	content: "";
+}
+
+.nav li {
+    display:inline-block;
+    margin: 1.5rem;
+}
+
+.nav a, 
+.nav a:link {
+	color: #996633;
+	text-decoration: none;
+	border-bottom: 0em solid #663300;
+	transition: all 250ms linear;
+}
+
+.nav a:visited {
+	color: #663300;
+	border-bottom-color: rgba(102,51,0,0.5);
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	color: #996633;
+    border-bottom: 1em solid #996633;
 }
