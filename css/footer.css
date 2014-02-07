@@ -2,13 +2,14 @@ footer {
     padding:15px;
 }
 
-.hide-text {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	display: block;
+.social {
+    text-align: right;
 }
 
+.social li {
+    display:inline-block;   
+    
+}
 .social li:before {
 	content: "";
 }
@@ -17,7 +18,7 @@ footer {
 .social li a:link,
 .social li a:visited {
 	display: inline-block;
-	float: left;
+
 	width: 40px;
 	height: 40px;
 	/*background-color:#222;*/
