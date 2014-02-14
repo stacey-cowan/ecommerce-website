@@ -1,6 +1,5 @@
 header {
     background-color: #600;
-
 }
 
 .logo {
@@ -22,13 +21,12 @@ nav ul li:before {
 
 nav li {
     display:inline-block;
-    padding: 1rem;
-    border-right: 1px solid #E8E6E3;
+    padding: 0 1rem;
 }
 
 nav a, 
 nav a:link {
-	color: #996633;
+	color: #bb8866;
 	text-decoration: none;
 	border-bottom: 0em solid #663300;
 	transition: all 250ms linear;
