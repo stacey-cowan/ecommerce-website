@@ -1,22 +1,19 @@
 .searchbox {
-	background: #600;
-	border-radius: 5px;	
-	border-width: 1px;
-	border-style: solid;
-	border-color: #600;            
-	width: 300px;
+    width: 300px;
 	height: 45px;
 	padding: 10px;
 	overflow: hidden;
     float:right;
+    margin-bottom: 15px;
 }
 
 .search {
 	padding: 5px 9px;
-	background: #E8E6E3;
+	background: #600;
 	border-radius: 5px;
     height: 20px;
     width: 70%;
+    color: #fff;
 }
 
 .submit {		
