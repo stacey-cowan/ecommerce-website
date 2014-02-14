@@ -11,10 +11,9 @@
     color: #fff;
 }
 
-.btn a:hover,
-.btn a:focus,
-.btn a:active {
-	color: #996633;
+.btn:hover,
+.btn:focus,
+.btn:active {
     background-image: linear-gradient(to bottom, #663300, #996633);
 }
 
@@ -25,9 +24,8 @@
     background-image: linear-gradient(to bottom, #600, #300);
 }
 
-.btn-alt a:hover,
-.btn-alt a:focus,
-.btn-alt a:active {
-	color: #600;
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-alt:active {
     background-image: linear-gradient(to bottom, #300, #600);
 }
