@@ -53,3 +53,7 @@ nav li {
         padding-top: 0;
     }
 }
+
+.current {
+    border-top: 1em solid #600;
+}
