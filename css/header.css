@@ -57,3 +57,14 @@ nav li {
 .current {
     border-top: 1em solid #600;
 }
+
+.banner {
+    background: #E8E6E3 url("../images/banner.jpg") no-repeat center center;
+    
+    text-align: center;
+}
+
+.banner h2 {
+    padding-top: 500px;
+    color: #fff;
+}
