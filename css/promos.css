@@ -5,6 +5,10 @@
     padding: 1em;
 }
 
+.promo-small img {
+    width: 45%;
+}
+
 .promo-large {
     background-color:#F0F0F0 ;
     border: 7px solid #600;
