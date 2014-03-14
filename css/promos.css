@@ -14,3 +14,7 @@
     border: 7px solid #600;
     padding: 1em;
 }
+
+.promo-large img {
+    width:30%;
+}
