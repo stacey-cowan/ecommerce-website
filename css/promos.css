@@ -7,6 +7,7 @@
 
 .promo-small img {
     width: 45%;
+    float:left;
 }
 
 .promo-large {
@@ -17,4 +18,5 @@
 
 .promo-large img {
     width:30%;
+    float:left;
 }
