@@ -1,0 +1,28 @@
+---
+layout: shoes
+title: Our Heels
+---
+
+<div class="grid">
+        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+            <h1>Our Heels</h1>
+        </div>
+        
+        <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+            <p>Take a look through our available heels.</p>
+        </div>
+    
+</div>
+
+    <ul>
+    {% for shoes in site.pages %}
+        {% if shoes.category == 'heels' %}
+            <li>
+                <a href="{{site.baseurl}}{{heels.url}}">
+                <img src="{{site.baseurl}}/images/{{heels.image}}" alt="">
+                {{heels.title}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
