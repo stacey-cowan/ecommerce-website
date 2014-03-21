@@ -14,4 +14,4 @@ image: heels/heels2.jpg
 - Strap Back
 - Red and white stripes
 
-![Glittering Gold]({{site.baseurl}}/images/heels/heels2.jpg)
+![Glittering Gold](http://www.placehold.it/250x250)

@@ -14,4 +14,4 @@ image: heels/heels3.jpg
 - Open Back
 - Pearlescent colour
 
-![Glittering Gold]({{site.baseurl}}/images/heels/heels3.jpg)
+![Glittering Gold](http://www.placehold.it/250x250)

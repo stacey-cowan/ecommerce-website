@@ -14,4 +14,4 @@ image: heels/heels4.jpg
 - Open Back
 - Sparkling Silver colour
 
-![Glittering Gold]({{site.baseurl}}/images/heels/heels4.jpg)
+![Glittering Gold](http://www.placehold.it/250x250)

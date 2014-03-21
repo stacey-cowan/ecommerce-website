@@ -15,4 +15,4 @@ url:/products/animal/
 - Closed Back
 - Animal Print
 
-![Animal]({{site.baseurl}}/images/heels/heels8.jpg)
+![Animal](http://www.placehold.it/250x250)

@@ -14,4 +14,4 @@ image: heels/heels5.jpg
 - Open Back
 - Gold Colour
 
-![Glittering Gold]({{site.baseurl}}/images/heels/heels5.jpg)
+![Glittering Gold](http://www.placehold.it/250x250)

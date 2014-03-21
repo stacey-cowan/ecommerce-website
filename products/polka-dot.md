@@ -14,4 +14,4 @@ url:/products/polka-dots/
 - Orange Polka Dots
 - Soft, durable sole
 
-![Polka Dots]({{site.baseurl}}/images/flats/polka-dots.jpg)
+![Polka Dots](http://www.placehold.it/250x250)
