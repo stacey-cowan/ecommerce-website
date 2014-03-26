@@ -1,17 +1,20 @@
 <div class="promo-large">
         
-        <div class="media">
+        <a href="{{site.baseurl}}/products/{{shoes.url}}">
+        <div class="grid">
         
-            <div class="media-img">
-                <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                <img class="small-img" src="{{site.baseurl}}/images/{{include.image}}" alt="">
             </div>
             
-            <div class="media-body">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
                 <h2 class="peta space-none">{{include.title}}</h2>
                 <p class="tera"><mark>Save ${{include.disc}}!</mark></p>
-                <p class="kilo">{{include.desc}}</p>
-                
-                <a class="btn brand-family" href="#"> Buy Now!</a>
+                <p class="mega">{{include.desc}}</p>
+                <p class="kilo">Click anywhere to learn more!</p>
             </div>
+            
+            </div>
+            </a>
         
         </div>

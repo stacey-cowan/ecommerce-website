@@ -31,6 +31,10 @@
   vertical-align: bottom;
 }
 
+.gutter {
+    margin: .25rem;
+}
+
 .unit-s-hidden {
   display: none;
   visibility: hidden;

@@ -3,10 +3,12 @@ layout: default
 category: heels
 title: Silver Flower
 image: heels/silver-flower.jpg
+url: /silver-flower/
 ---
 
 *Silver Flower* is perfect to wear to outside events during the summer months!
  
+<img class="product-img" src="{{site.baseurl}}/images/heels/silver-flower.jpg" alt="Silver Flower.">
 
 ####Features
 
@@ -14,4 +16,4 @@ image: heels/silver-flower.jpg
 - Open Back
 - Pearlescent colour
 
-![Silver Flower]({{site.baseurl}}/images/heels/silver-flower.jpg)
+<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

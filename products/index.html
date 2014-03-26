@@ -17,39 +17,60 @@ title: Our Shoes
         <h2>Heels</h2>
 
 <div class="grid">
-        <ul>
+        <ul class="list-fix">
         {% for shoes in site.pages %}
             {% if shoes.category == 'heels' %}
-            <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">   
-            <li class="product">
-                    
-                    <a href="{{site.baseurl}}{{shoes.url}}">
-                    <img class="small-img" src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
-                    {{shoes.title}}
-                    </a>
-                </li>
+            <a href="{{site.baseurl}}{{shoes.url}}">
+                <div class="unit gutter unit-s-1 unit-m-2-5 unit-l-2-5">   
+                    <div class="grid">
+                        <li class="product list-group-item">
+                            
+                            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                                <img class="small-img" src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
+                            </div>
+                            
+                            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                                <h4 class="right">{{shoes.title}}</h4>
+                                <p class="right">Click to learn more about this product.</p>
+                            </div>  
+                            
+                        </li>
+                    </div>
                 </div>
+            </a>
             {% endif %}
         {% endfor %}
         </ul>
     </div>
 
+    <h2>Flats</h2>
 
-<h2>Flats</h2>
-    <ul>
-    {% for shoes in site.pages %}
-        {% if shoes.category == 'flats' %}
-            <li>
-                
-                <a href="{{site.baseurl}}{{shoes.url}}">
-                    <img src="http://www.placehold.it/250x250" alt="">
-                {{shoes.title}}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
-
+<div class="grid">
+        <ul class="list-fix">
+        {% for shoes in site.pages %}
+            {% if shoes.category == 'flats' %}
+            <a href="{{site.baseurl}}{{shoes.url}}">
+                <div class="unit gutter unit-s-1 unit-m-2-5 unit-l-2-5">   
+                    <div class="grid">
+                        <li class="product list-group-item">
+                            
+                            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                                <img class="small-img" src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
+                            </div>
+                            
+                            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                                <h4 class="right">{{shoes.title}}</h4>
+                                <p class="right">Click to learn more about this product.</p>
+                            </div>  
+                            
+                        </li>
+                    </div>
+                </div>
+            </a>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
 
 
     

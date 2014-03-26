@@ -1,0 +1,36 @@
+---
+layout: default
+title: Search Results
+showbanner: yes
+bannertext: Search Results
+---
+
+<h4>You searched the term: <em>gold</em></h4>
+<p class="mega">Here are the results!</p>
+
+<div class="grid">
+        <ul class="list-fix">
+        {% for shoes in site.pages %}
+            {% if shoes.search == 'gold' %}
+            <a href="{{site.baseurl}}{{shoes.url}}">
+                <div class="unit gutter unit-s-1 unit-m-1 unit-l-1">   
+                    <div class="grid">
+                        <li class="searchresult list-group-item">
+                            
+                            <div class="unit unit-s-1 unit-m-1-5 unit-l-1-5">
+                                <img src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
+                            </div>
+                            
+                            <div class="unit unit-s-1 unit-m-4-5 unit-l-4-5">
+                                <h4>{{shoes.title}}</h4>
+                                <p>Click to learn more about this product.</p>
+                            </div>  
+                            
+                        </li>
+                    </div>
+                </div>
+            </a>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>

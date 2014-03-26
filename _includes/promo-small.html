@@ -1,19 +1,20 @@
 <div class="promo-small">
+    <a href="{{site.baseurl}}/products/{{shoes.url}}">
+        <div class="grid">
         
-        <div class="media">
-        
-            <div class="media-img">
-                <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+                <img class="small-img" src="{{site.baseurl}}/images/{{include.image}}" alt="">
             </div>
             
-            <div class="media-body">
+            <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
                 <h2 class="kilo space-none">{{include.title}}</h2>
                 <p><mark>Save ${{include.disc}}!</mark></p>
-                <p class="milli">{{include.desc}}</p></p>
+                <p class="milli">{{include.desc}}</p>
+                <p class="push-none">Click to learn more!</p>
             </div>
         
         </div>
             
-        <a class="brand-family" href="#"> More Info</a>
+    </a>
     
     </div>

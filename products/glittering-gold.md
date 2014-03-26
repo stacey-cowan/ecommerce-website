@@ -1,12 +1,15 @@
 ---
 layout: default
 category: heels
-title: Glittering Gold
+title: Gold Glitter
 image: heels/glitter-gold.jpg
+search: gold
+url: /glittering-gold/
 ---
 
-*Glittering Gold* is one of our more popular shoes, back now for a limited time!
+*Gold Glitter* is one of our more popular shoes, back now for a limited time!
  
+ <img class="product-img" src="{{site.baseurl}}/images/heels/glitter-gold.jpg" alt="Gold Glitter.">
 
 ####Features
 
@@ -14,4 +17,4 @@ image: heels/glitter-gold.jpg
 - Open Back
 - Gold Colour
 
-![Glittering Gold]({{site.baseurl}}/images/heels/glitter-gold.jpg)
+<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Cart
+showbanner: yes
+bannertext: Your Cart
+---
+
+<h4>This is your cart!</h4>
+<p class="mega">Here's what you've picked out so far.</p>
+
+<div class="grid">
+        <ul class="list-fix">
+        {% for shoes in site.pages %}
+            {% if shoes.cart == 'in' %}
+                <div class="unit gutter unit-s-1 unit-m-3-5 unit-l-3-5">   
+                    <div class="grid">
+                        <li class="cart list-group-item">
+                            
+                            <div class="unit unit-s-1 unit-m-1-5 unit-l-1-5">
+                                <img src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
+                            </div>
+                            
+                            <div class="unit unit-s-1 unit-m-2-5 unit-l-2-5">
+                                <p class="giga">{{shoes.title}}</p>
+                                
+                            </div>  
+                            
+                        </li>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+
+<a class="btn giga" href="{{site.baseurl}}/thankyou/">Check Out</a>
