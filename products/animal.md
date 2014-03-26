@@ -2,7 +2,7 @@
 layout: default
 category: heels
 title: Animal
-image: heels/heels8.jpg
+image: heels/animal.jpg
 ---
 
 *Animal* is perfect for a night out. Show your wild side with the animal print!
@@ -14,4 +14,4 @@ image: heels/heels8.jpg
 - Closed Back
 - Animal Print
 
-![Animal](http://www.placehold.it/250x250)
+![Animal]({{site.baseurl}}/images/heels/animal.jpg)

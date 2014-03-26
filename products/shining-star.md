@@ -2,7 +2,7 @@
 layout: default
 category: heels
 title: Shining Star
-image: heels/heels4.jpg
+image: heels/shining-star.jpg
 ---
 
 *Shining Star* is perfect for prom time. Show everyone that you're a star!
@@ -14,4 +14,4 @@ image: heels/heels4.jpg
 - Open Back
 - Sparkling Silver colour
 
-![Glittering Gold](http://www.placehold.it/250x250)
+![Shining Star]({{site.baseurl}}/images/heels/shining-star.jpg)

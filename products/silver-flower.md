@@ -2,7 +2,7 @@
 layout: default
 category: heels
 title: Silver Flower
-image: heels/heels3.jpg
+image: heels/silver-flower.jpg
 ---
 
 *Silver Flower* is perfect to wear to outside events during the summer months!
@@ -14,4 +14,4 @@ image: heels/heels3.jpg
 - Open Back
 - Pearlescent colour
 
-![Glittering Gold](http://www.placehold.it/250x250)
+![Silver Flower]({{site.baseurl}}/images/heels/silver-flower.jpg)

@@ -2,7 +2,7 @@
 layout: default
 category: heels
 title: Glittering Gold
-image: heels/heels5.jpg
+image: heels/glitter-gold.jpg
 ---
 
 *Glittering Gold* is one of our more popular shoes, back now for a limited time!
@@ -14,4 +14,4 @@ image: heels/heels5.jpg
 - Open Back
 - Gold Colour
 
-![Glittering Gold](http://www.placehold.it/250x250)
+![Glittering Gold]({{site.baseurl}}/images/heels/glitter-gold.jpg)

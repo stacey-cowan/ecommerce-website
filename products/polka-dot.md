@@ -2,8 +2,7 @@
 layout: default
 category: flats
 title: Polka Dot
-image: flats/polka-dots.jpg.jpg
-url: /products/polka-dots/
+image: flats/polka-dots.jpg
 ---
 
 *Polka Dots* is the perfect sandal to wear to the beach.
@@ -14,4 +13,4 @@ url: /products/polka-dots/
 - Orange Polka Dots
 - Soft, durable sole
 
-![Polka Dots](http://www.placehold.it/250x250)
+![Polka Dots]({{site.baseurl}}/images/flats/polka-dots.jpg)

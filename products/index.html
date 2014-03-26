@@ -16,20 +16,23 @@ title: Our Shoes
 
         <h2>Heels</h2>
 
-
+<div class="grid">
         <ul>
         {% for shoes in site.pages %}
             {% if shoes.category == 'heels' %}
-                <li>
+            <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">   
+            <li class="product">
                     
                     <a href="{{site.baseurl}}{{shoes.url}}">
-                    <img src="http://www.placehold.it/250x250" alt="">
+                    <img class="small-img" src="{{site.baseurl}}/images/{{shoes.image}}" alt="">
                     {{shoes.title}}
                     </a>
                 </li>
+                </div>
             {% endif %}
         {% endfor %}
         </ul>
+    </div>
 
 
 <h2>Flats</h2>
