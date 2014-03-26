@@ -14,32 +14,39 @@ title: Our Shoes
     
 </div>
 
-    
-    <h2>Heels</h2>
-    <ul>
-    {% for shoes in site.pages %}
-        {% if shoes.category == 'heels' %}
-            <li>
-                <a href="{{site.baseurl}}{{heels.url}}">
-                <img src="http://www.placehold.it/250x250" alt="">
-                {{heels.title}}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+        <h2>Heels</h2>
+
+
+        <ul>
+        {% for shoes in site.pages %}
+            {% if shoes.category == 'heels' %}
+                <li>
+                    
+                    <a href="{{site.baseurl}}{{shoes.url}}">
+                    <img src="http://www.placehold.it/250x250" alt="">
+                    {{shoes.title}}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+
 
 <h2>Flats</h2>
     <ul>
     {% for shoes in site.pages %}
         {% if shoes.category == 'flats' %}
             <li>
-                <a href="{{site.baseurl}}{{flats.url}}">
-                <img src="http://www.placehold.it/250x250" alt="">
-                {{flats.title}}
+                
+                <a href="{{site.baseurl}}{{shoes.url}}">
+                    <img src="http://www.placehold.it/250x250" alt="">
+                {{shoes.title}}
                 </a>
             </li>
         {% endif %}
     {% endfor %}
 </ul>
+
+
+
     

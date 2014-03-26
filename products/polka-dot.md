@@ -3,7 +3,7 @@ layout: default
 category: flats
 title: Polka Dot
 image: flats/polka-dots.jpg.jpg
-url:/products/polka-dots/
+url: /products/polka-dots/
 ---
 
 *Polka Dots* is the perfect sandal to wear to the beach.
