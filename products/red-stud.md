@@ -15,4 +15,4 @@ url: /red-stud/
 - Closed Toe
 - Small Bronze studs along the front
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

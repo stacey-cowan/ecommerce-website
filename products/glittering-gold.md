@@ -17,4 +17,4 @@ url: /glittering-gold/
 - Open Back
 - Gold Colour
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

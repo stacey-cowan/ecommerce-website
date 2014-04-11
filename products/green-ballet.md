@@ -16,4 +16,4 @@ These *Green Ballet* shoes are made to dance in, but can also be worn casually.
 - Flat Toe
 - Green Ribbon to secure the shoe
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

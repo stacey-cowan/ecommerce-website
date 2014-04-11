@@ -16,4 +16,4 @@ url: /silver-flower/
 - Open Back
 - Pearlescent colour
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

@@ -16,4 +16,4 @@ These *Gold* flats will make your day a bit brighter.
 - Closed Toe
 - Small gold bow accent
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>

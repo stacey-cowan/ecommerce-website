@@ -17,4 +17,4 @@ url: /red-stripes/
 - Strap Back
 - Red and white stripes
 
-<a class="btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
+<a class="btn btn-alt brand-family" href="{{site.baseurl}}/cart/">Add to cart.</a>
