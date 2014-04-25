@@ -1,0 +1,19 @@
+# humanstxt.org
+
+# TEAM
+
+Stacey Cowan
+
+---
+
+# THANKS
+
+Royalty Free images used under the Creative Commons Licence from www.morguefile.com
+
+---
+
+# TECHNOLOGY
+
+Created using Brackets and Jekyll.
+
+
